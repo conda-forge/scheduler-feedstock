@@ -1,5 +1,5 @@
 {% set name = "scheduler" %}
-{% set version = "0.8.8" %}
+{% set version = "0.8.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scheduler-{{ version }}.tar.gz
-  sha256: 4575a12cd269e4e4896409836fd911560cb63fb7634360ee62aa2fa4ec495ffd
+  sha256: 0093cad8c8957552fa8c4cb002b900daf731b26c2a7179f2f3e2bd1b6bf02c4f
 
 build:
   noarch: python
